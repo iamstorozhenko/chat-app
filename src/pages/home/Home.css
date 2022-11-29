@@ -58,6 +58,6 @@ button {
 
 .main-button:hover {
   background-color: #3d3591;
-  transition: all 0.25s ease-in;
+  transition: all 0.25s ease;
   color: #ffe9b1;
 }
