@@ -1,6 +1,6 @@
 # Chat-app
 
-Chat app where user can enter his login and choose which room he want to join (based on his interests politics, sport etc.) After you choose your room you able to send messages, view previous nessages (up to 100), see who's online.
+Chat app where user can enter his login and choose which room he want to join (based on his interests politics, sport etc.) After you choose your room you able to send messages, view previous messages (up to 100), see who's online.
 
 Stack:
   * React
