@@ -16,7 +16,7 @@ const Home = ({ username, setUsername, room, setRoom, socket }) => {
   return (
     <div className="container-wrapper">
       <div className="card-wrapper">
-        <h1>Hello mate</h1>
+        <h1>Hello</h1>
         <div className="form-wrapper">
           <input
             className="main-input"

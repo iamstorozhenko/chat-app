@@ -8,5 +8,220 @@ html * {
 body {
   margin: 0;
   padding: 0;
-  background-color: #3B3486;
+  overflow: hidden;
+  background-color: #595b83;
+}
+
+.container-wrapper {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-wrapper {
+  width: 500px;
+  height: 400px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-radius: 20px;
+  background-color: #7743db; */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+h1 {
+  font-size: 32px;
+  color: #ffe9b1;
+}
+
+.form-wrapper {
+  margin: 20px 0;
+}
+
+input {
+  width: 280px;
+  height: 44px;
+  margin: 14px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+select {
+  width: 280px;
+  height: 44px;
+  margin: 14px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  width: 280px;
+  height: 44px;
+  border: none;
+  border-radius: 8px;
+  margin: 14px 0;
+  background-color: #333456;
+  color: #d6d5a8;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  transition: all 0.3s ease;
+  background-color: #474984;
+}
+
+.roomTitle {
+  margin: 0;
+  font-size: 24px;
+}
+
+.roomTitle span {
+  font-weight: 200;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.roomAndUsersColumn {
+  position: sticky;
+  padding: 20px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 0 0 16px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: #060930;
+}
+
+.btnLeaveWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+h5 {
+  font-size: 22px;
+  margin: 20px 0 0 0;
+}
+
+.usersList {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0 0 0;
+}
+
+.btnLeave {
+  width: 200px;
+  height: 40px;
+  background-color: #333456;
+  color: #d6d5a8;
+}
+
+.btnLeave:hover {
+  transition: all 0.3s ease;
+  background-color: #474984;
+}
+
+.message-column {
+  overflow: auto;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px 10px 10px 40px;
+}
+
+.oval {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #3f0071;
+  opacity: 0.2;
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  z-index: -10;
+}
+
+.oval2 {
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  background-color: #fb2576;
+  opacity: 0.3;
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  z-index: -10;
+}
+
+.message-wrapper {
+  border-radius: 6px;
+  margin-bottom: 24px;
+  max-width: 1000px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+.msg-meta {
+  color: #d6d5a8;
+}
+
+.msg-text {
+  margin: 40px 0 10px 0;
+  color: #fff;
+}
+
+.sendMessage-container {
+  position: fixed;
+  left: 50%;
+  bottom: -30px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  display: flex;
+  padding: 16px 20px 20px 16px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.messageInput {
+  padding: 14px;
+  margin-right: 16px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid rgb(153, 217, 234);
+  font-size: 0.9rem;
+}
+
+.sendMessage-btn {
+  width: 120px;
+  font-size: 14px;
+  background-color: #333456;
+  color: #fff;
+}
+
+.sendMessage-btn:hover {
+  background-color: #45477f;
+  transition: all 0.3s ease;
 }
