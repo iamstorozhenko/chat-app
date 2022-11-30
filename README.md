@@ -8,11 +8,12 @@ Stack:
   * HarperDB
   * Socket.io
 
-Screenshots: 
- Main page:
+Main page:
+
 <img width="1437" alt="Screenshot 2022-11-30 at 18 14 07" src="https://user-images.githubusercontent.com/79382395/204850400-6c08f016-1778-400e-a7b0-7d3c97eebee7.png">
 
 Chat page:
+
 <img width="1427" alt="Screenshot 2022-11-30 at 18 13 48" src="https://user-images.githubusercontent.com/79382395/204850327-2365567c-1f6c-4278-b6dd-0b108d5ae59c.png">
 
 
