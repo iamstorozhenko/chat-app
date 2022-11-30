@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import "./Messages.css";
 
 const Messages = ({ socket }) => {
   const [messagesRecieved, setMessagesReceived] = useState([]);
