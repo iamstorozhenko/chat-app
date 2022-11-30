@@ -1,3 +1,30 @@
+# Chat-app
+
+Chat app where user can enter his login and choose which room he want to join (based on his interests politics, sport etc.) After you choose your room you able to send messages, view previous nessages (up to 100), see who's online.
+
+Stack:
+  * React
+  * Express.js
+  * HarperDB
+  * Socket.io
+
+Screenshots: 
+ Main page:
+<img width="1437" alt="Screenshot 2022-11-30 at 18 14 07" src="https://user-images.githubusercontent.com/79382395/204850400-6c08f016-1778-400e-a7b0-7d3c97eebee7.png">
+
+Chat page:
+<img width="1427" alt="Screenshot 2022-11-30 at 18 13 48" src="https://user-images.githubusercontent.com/79382395/204850327-2365567c-1f6c-4278-b6dd-0b108d5ae59c.png">
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
